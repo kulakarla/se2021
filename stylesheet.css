@@ -1,7 +1,7 @@
 .pohipealkiri{
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-color:whitesmoke;
-font-size: 32px;
+    font-family: 'Segoe UI', sans-serif;
+    color:whitesmoke;
+    font-size: 32px;
 }
 div.sisu{
     max-width: 900px;
@@ -32,4 +32,13 @@ table.pohitabel{
 }
 table.pohitabel th{
     color:hotpink;
+}
+div.column {
+    float: left;
+    width: 50%;
+}
+div.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
